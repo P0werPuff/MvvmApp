@@ -7,7 +7,7 @@ namespace MvvmApp
 {
     public partial class App : Application
     {
-        public App()
+        public App() //
         {
             MainPage = new NavigationPage(new FriendsListPage());
         }
